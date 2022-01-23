@@ -27,7 +27,7 @@ function SingleTable({title,kind,price,twoStar,photo,sideColor,clockColor}) {
                           <StarRateIcon style={{color:"#ffd801"}}/>
                           <StarRateIcon style={{color:"#ffd801"}}/>
                          <StarBorderIcon style={{color:"gray"}}/>
-                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px"}}/>
+                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px" , marginLeft:"5px"}}/>
                          </> ) }
 
 
@@ -35,7 +35,7 @@ function SingleTable({title,kind,price,twoStar,photo,sideColor,clockColor}) {
                           <StarRateIcon style={{color:"#ffd801"}}/>
                           <StarBorderIcon style={{color:"gray"}}/>
                          <StarBorderIcon style={{color:"gray"}}/>
-                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px"}}/>
+                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px" , marginLeft:"5px"}}/>
                          </> ) }
 
                          
@@ -43,7 +43,7 @@ function SingleTable({title,kind,price,twoStar,photo,sideColor,clockColor}) {
                             <StarBorderIcon style={{color:"gray"}}/>
                           <StarBorderIcon style={{color:"gray"}}/>
                          <StarBorderIcon style={{color:"gray"}}/>
-                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px"}}/>
+                         <AccessTimeIcon style={{color:`${clockColor}` , width:"20px" , height:"20px" , marginLeft:"5px"}}/>
                          </> ) }
                     
                  </span>
