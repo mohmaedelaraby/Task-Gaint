@@ -1,0 +1,99 @@
+.Item_Container{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 100vh;
+    
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.Item_wr{
+    margin-left: 15px;
+    padding: 10px;
+}
+.New{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.ic{
+    margin-right: 15px;
+    color: gray;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pp{
+    flex: 3;
+}
+.pr{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+@media screen and (max-width: 770px)
+{
+   .Item_Container{
+       width: 100%;
+       position: relative;
+       top: 200px;
+       
+   }
+   .pr{
+       margin-right: 25px;
+   }
+   .ic{
+       margin-right: 35px;
+   }
+}
+
+
+@media screen and (max-width: 426px)
+{
+   .Item_Container{
+       width: 100%;
+     position: relative;
+     top: 200px;
+     background: #f9f9f9;
+       
+   }
+   .pr{
+       margin-right: 25px;
+   }
+   .ic{
+       margin-right: 35px;
+   }
+}
+
+
+@media screen and (max-width: 376px)
+{
+   .Item_Container{
+       width: 100%;
+     position: relative;
+     top: 200px;
+     background:#f9f9f9;
+     width: 100%;
+       
+   }
+   .pr{
+       margin-right: 25px;
+   }
+   .ic{
+       margin-right: 35px;
+   }
+}
+
+

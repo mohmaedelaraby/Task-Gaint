@@ -1,0 +1,84 @@
+
+.Item{
+    border: 1px solid gray;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 91%;
+    background-color: white;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    
+   
+}
+
+.Item_P{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Item_kind{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.k{
+    font-size: 12px;
+}
+.dot{
+    color: orange;
+    margin-right: 5px;
+}
+.Price{
+    color: gray;
+}
+.Price>p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.Item_Icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.Stars{
+    flex: 1;
+}
+.clcok{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+
+}
+.c-bg {
+    width: 5px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+  }
+
+  .c-bg2 {
+    width: 5px;
+    height: 100%;
+    background-color: #ef8076;
+    position: absolute;
+  }
+
+  .c-bg1 {
+    width: 5px;
+    height: 100%;
+    background-color: #efefef;
+    position: absolute;
+  }
+  .c-bg4 {
+    width: 5px;
+    height: 100%;
+    background-color: lightblue;
+    position: absolute;
+  }

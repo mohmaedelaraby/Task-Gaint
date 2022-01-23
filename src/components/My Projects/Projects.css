@@ -1,0 +1,244 @@
+.project_container{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 20vh;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.Wrapper{
+    width: 95%;
+    display: flex;
+}
+.p_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p_left>h2{
+    color: #875a7b;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+}
+.btn1{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #019e9c;
+    font-weight: 600;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.btn2{
+    border: none;
+    cursor: pointer;
+    color: #019e9c;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.p_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input_con{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
+.x{
+    color: gray;
+    padding: 10px;
+}
+.input_con>input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    
+
+}
+
+.p_icons{
+    display: flex;
+}
+.p_icons_left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.p_icons_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+}
+.selecct_icon{
+    display: flex;
+    align-self: center;
+    color: #626366;
+    margin-right: 14px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.selecct_icon>p{
+    flex: 1;
+}
+.side_icon{
+    margin-right: 15px;
+    color: #626366;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.side_icon:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width:376px) {
+    .project_container{
+       
+        position: relative;
+        top: 46px;
+        
+        height: 120px;
+        min-width: 404px;
+    }
+    
+    
+    .Wrapper{
+        display: flex;
+        flex-direction:column ;
+        position: absolute;
+        
+        width: 90%;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:426px) {
+    .project_container{
+        width: 108%;
+        position: absolute;
+        top: 45px;
+        
+    }
+    
+    
+    .Wrapper{
+        display: flex;
+        flex-direction:column ;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:322px) {
+    .project_container{
+        position: absolute;
+        top: 45px;
+        
+    }
+    
+    .Wrapper{
+        display: flex;
+        flex-direction:column ;
+      
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 767px)
+{
+    .project_container{
+        width: 100%;
+        position: absolute;
+        top: 45px;
+    }
+    
+    .Wrapper{
+        display: flex;
+        flex-direction:column ;
+    }
+    .p_left>h2{
+        color: #875a7b;
+        margin-bottom: 0px;
+    }
+    .input_con{
+        width: 100%;
+        height: 20px;
+    }
+    .input_con>input{
+        padding: 2px;
+        font-size: 6px;
+
+    }
+    .x{padding: 0px
+    }
+    .btn1{
+        padding: 7px 10px;
+        font-size: 8px;
+    }
+    .btn2{
+        padding: 7px 10px;
+        font-size: 8px;
+
+    }
+    .p_left{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .p_left>h2{
+        font-size: 10px;
+    }
+    .selecct_icon>p{
+        color: red;
+        font-size: 10px;
+       
+    }
+    .p_icons_right{
+        background: red;
+        display: none;
+    }
+    .p_icons_left{
+        background-color: blue;
+        display: none;
+    }
+    .side_icon{
+        color: blue;
+        width: 10px;
+        height: 10px;
+        display: none;
+    }
+   
+}
