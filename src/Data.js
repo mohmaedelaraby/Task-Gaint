@@ -14,7 +14,8 @@ export const data1 =[
         twoStar:true,
         photo:img1,
         sideColor:"c-bg",
-        clockColor:"#68c591"
+        clockColor:"#68c591",
+        id:0
     }
     ,{
         title:"Script to import extrenal data",
@@ -23,7 +24,8 @@ export const data1 =[
         twoStar:false,
         photo:img2,
         sideColor:"c-bg2",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",
+        id:1
     },{
         title:"Plan to buy 60 Keyboards",
         kind:"Product",
@@ -31,7 +33,8 @@ export const data1 =[
         twoStar:false,
         photo:img3,
         sideColor:"c-bg",
-        clockColor:"#68c591"
+        clockColor:"#68c591",
+        id:2
     }
 ]
 
@@ -45,7 +48,8 @@ export const data2 =[
         twoStar:false,
         photo:img4,
         sideColor:"c-bg",
-        clockColor:"#f8d2a4"
+        clockColor:"#f8d2a4",
+        id:0
     }
     ,{
         title:"Pricing information of Services",
@@ -54,7 +58,8 @@ export const data2 =[
         twoStar:false,
         photo:img5,
         sideColor:"c-bg2",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",
+        id:1
     },{
         title:"Plan to buy RedHat services",
         kind:"Product",
@@ -62,7 +67,8 @@ export const data2 =[
         twoStar:false,
         photo:img6,
         sideColor:"c-bg1",
-        clockColor:"#f8d2a4"
+        clockColor:"#f8d2a4",
+        id:2
     }
 ]
 
@@ -75,7 +81,7 @@ export const data3 =[
         twoStar:true,
         photo:img7,
         sideColor:"c-bg2",
-        clockColor:"gray"
+        clockColor:"gray",id:0
     }
     ,{
         title:"Need to customize the solution",
@@ -84,7 +90,7 @@ export const data3 =[
         twoStar:true,
         photo:img2,
         sideColor:"c-bg4",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",id:1
     },{
         title:"resourcing planning , project development",
         kind:"Consulting",
@@ -92,7 +98,7 @@ export const data3 =[
         twoStar:true,
         photo:img1,
         sideColor:"c-bg1",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",id:2
     }
 ]
 
@@ -105,7 +111,7 @@ export const data4 =[
         twoStar:false,
         photo:img4,
         sideColor:"c-bg2",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",id:0
     }
     ,{
         title:"Need 20 days of Consultancy",
@@ -114,7 +120,7 @@ export const data4 =[
         twoStar:"nostar",
         photo:img5,
         sideColor:"c-bg",
-        clockColor:"#68c591"
+        clockColor:"#68c591",id:1
     },{
         title:"Wants to subscripe your online soultion",
         kind:"Services",
@@ -122,7 +128,7 @@ export const data4 =[
         twoStar:"nostar",
         photo:img1,
         sideColor:"c-bg1",
-        clockColor:"#efb1ab"
+        clockColor:"#efb1ab",id:2
     }
 ]
 
@@ -134,7 +140,7 @@ export const data5 =[
         twoStar:true,
         photo:img4,
         sideColor:"c-bg1",
-        clockColor:"gray"
+        clockColor:"gray",id:0
     }
     ,{
         title:"Need 20 days of Consultancy",
@@ -143,7 +149,7 @@ export const data5 =[
         twoStar:true,
         photo:img6,
         sideColor:"c-bg1",
-        clockColor:"#68c591"
+        clockColor:"#68c591",id:1
     },{
         title:"Need a new Design",
         kind:"Design",
@@ -151,6 +157,6 @@ export const data5 =[
         twoStar:true,
         photo:img1,
         sideColor:"c-bg1",
-        clockColor:"#68c591"
+        clockColor:"#68c591" ,id:2
     }
 ]

@@ -23,7 +23,12 @@
     margin-left: 20px;
     margin-top: 20px;
   }
-  @media screen and (max-width:790px) {.test2{display: none;} }
+  @media screen and (max-width:1030px) {
+      .test2{
+          writing-mode: horizontal-tb;
+          margin-bottom: 25px;
+        } 
+    }
 @media screen and (max-width: 426px)
 {
     .table_cont{
@@ -33,6 +38,10 @@
        display: flex;
        flex-direction: column;
    }
+   .test2{
+    writing-mode: horizontal-tb;
+    margin-bottom: 25px;
+  } 
    
 }
 @media screen and (max-width: 377px)
@@ -45,6 +54,10 @@
        display: flex;
        flex-direction: column;
    }
+   .test2{
+    writing-mode: horizontal-tb;
+    margin-bottom: 25px;
+  } 
 }
 
 @media screen and (max-width: 321px)
@@ -58,4 +71,8 @@
        display: flex;
        flex-direction: column;
    }
+   .test2{
+    writing-mode: horizontal-tb;
+    margin-bottom: 25px;
+  } 
 }

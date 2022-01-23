@@ -34,7 +34,7 @@ function Table_Item({title , min,max,color,bscolor ,price ,data}) {
         </span>
         {
           data.map((item)=>(
-            <SingleTable title={item.title} kind={item.kind} price={item.price} 
+            <SingleTable key={item.id} title={item.title} kind={item.kind} price={item.price} 
             photo={item.photo} twoStar={item.twoStar} sideColor={item.sideColor} clockColor={item.clockColor}/>
           ))
 

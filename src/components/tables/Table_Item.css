@@ -43,12 +43,29 @@
     justify-content: flex-end;
     margin-left: 15px;
 }
+
+@media screen and (max-width: 1030px)
+{
+   .Item_Container{
+       width: 100%;
+       position: relative;
+       
+       
+   }
+   .pr{
+       margin-right: 25px;
+   }
+   .ic{
+       margin-right: 35px;
+   }
+
+}
 @media screen and (max-width: 770px)
 {
    .Item_Container{
        width: 100%;
        position: relative;
-       top: 200px;
+       
        
    }
    .pr{
@@ -65,7 +82,7 @@
    .Item_Container{
        width: 100%;
      position: relative;
-     top: 200px;
+     top: 180px;
      background: #f9f9f9;
        
    }

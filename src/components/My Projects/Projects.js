@@ -32,25 +32,25 @@ function Projects() {
               <span className='p_icons'>
                   <span className='p_icons_left'>
                       <span className='selecct_icon'>
-                          <FilterAltIcon/> <p>Filter</p> <ArrowDropDownIcon/>
+                          <FilterAltIcon style={{width:"20px", height:"20px"}}/> <p>Filter</p> <ArrowDropDownIcon style={{width:"20px", height:"20px"}}/>
                       </span>
 
                       
                       <span className='selecct_icon'>
-                           <TableRowsIcon/> <p> Groubs</p> <ArrowDropDownIcon/>
+                           <TableRowsIcon style={{width:"20px", height:"20px"}}/> <p> Groubs</p> <ArrowDropDownIcon style={{width:"20px", height:"20px"}}/>
                       </span>
 
                       
                       <span className='selecct_icon'>
-                           <StarIcon /> <p>Favorite</p> <ArrowDropDownIcon />
+                           <StarIcon style={{width:"20px", height:"20px"}} /> <p>Favorite</p> <ArrowDropDownIcon style={{width:"20px", height:"20px"}}/>
                       </span>
                   </span>
                   <span className='p_icons_right'>
-                      <span className='side_icon'> <VerticalSplitIcon/></span>
-                      <span className='side_icon'> <EventNoteIcon/></span>
-                      <span className='side_icon'> <GridViewSharpIcon/></span>
-                      <span className='side_icon'> <TableChartSharpIcon/></span>
-                      <span className='side_icon'> <AssessmentOutlinedIcon/></span>
+                      <span className='side_icon'> <VerticalSplitIcon style={{width:"20px", height:"20px"}}/></span>
+                      <span className='side_icon'> <EventNoteIcon style={{width:"20px", height:"20px"}}/></span>
+                      <span className='side_icon'> <GridViewSharpIcon style={{width:"20px", height:"20px"}}/></span>
+                      <span className='side_icon'> <TableChartSharpIcon style={{width:"20px", height:"20px"}}/></span>
+                      <span className='side_icon'> <AssessmentOutlinedIcon style={{width:"20px", height:"20px"}}/></span>
 
                   </span>
               </span>
